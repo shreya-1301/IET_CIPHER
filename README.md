@@ -100,6 +100,43 @@ This project focuses on detecting anomalies in stock market data, such as unexpe
   - Deployment tools: `streamlit`, `flask`, or `fastapi`.  
 
 ### Steps  
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt  
+Usage
+Data Preprocessing: Run the script to clean and prepare the training dataset:
+
+bash
+Copy code
+python preprocess_train.py  
+Model Training: Train the anomaly detection model:
+
+bash
+Copy code
+python train_model.py  
+Visualization: Generate anomaly plots:
+
+bash
+Copy code
+python visualize_anomalies.py  
+Test Dataset Application: Apply the trained model to test data:
+
+bash
+Copy code
+python detect_anomalies_test.py  
+Model Deployment: Run the deployment script:
+
+bash
+Copy code
+streamlit run deploy_app.py  
+Technologies Used
+Programming Language: Python
+Libraries:
+Data Preprocessing: pandas, numpy
+Model Development: scikit-learn, PyTorch
+Visualization: matplotlib, seaborn, plotly
+Deployment: streamlit, flask, fastapi
 
 1. Clone the repository:  
    ```bash  
