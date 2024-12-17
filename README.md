@@ -10,10 +10,10 @@ Evaluation and Visualization of Results
 **Dataset Name**: Visualization.ipynb (placeholder for the cleaned dataset)
 **Source**: Provided as input
 **Features**: Describe the key attributes used for anomaly detection (e.g., numerical features, categorical features, timestamps).
-🔍 <h2>Objective</h2>
+<h2>🔍Objective</h2>
 To identify anomalies/outliers within the dataset through an unsupervised learning approach using the Isolation Forest algorithm.
 
-⚙️ <h2>Workflow</h2>
+<h2>⚙️Workflow</h2>
 1. **Data Cleaning**
 The following preprocessing steps were performed on the dataset:
 
