@@ -34,15 +34,22 @@ Fitting the Isolation Forest model on the dataset
 **Hyperparameters:**
 
 n_estimators: 100 (number of base estimators)
+
 contamination: Auto-estimated or manually set based on domain knowledge
+
 max_samples: Sub-sampling size for tree training
-4. Results and Evaluation
+
+4. **Results and Evaluation**
 The model generates anomaly scores and identifies points as anomalies (outliers) or normal observations. The following metrics and visualizations are used to interpret results:
 
 Anomaly Score Distribution: Visualization of scores using histograms.
 
+![Anomaly Graph](d1.png)
 
 Anomaly Detection Scatter Plot: Scatter plots highlighting anomalies.
+![Accuracy Graph](output.png)
+
+![Accuracy Graph](Stock anamoly.png)
 
 Evaluation: If labeled data exists, precision, recall, or F1-score can be computed for validation.
 
